@@ -1,0 +1,28 @@
+a {
+  display: inline;
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: Verdana;
+  border-bottom: orange thin solid;
+}
+
+.active {
+  border-bottom: orangered thin solid;
+}
+
+a:hover {
+  border-bottom: orangered thin solid;
+}
+
+nav {
+  background-color: #36454f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 2% 2% 2%;
+}
+
+.separator {
+  margin-left: 2%;
+  margin-right: 2%;
+}
